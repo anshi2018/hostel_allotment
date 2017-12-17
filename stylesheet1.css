@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+div#header
+{ width:980px;
+height:auto;
+	/*background-color:#600; */
+	background-image:url(webimg2/12.jpg);
+	background-repeat:no-repeat;
+	background-size:1000px auto; 
+	 
+	margin:0px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align:center;
+	padding:10px;
+	border-bottom:groove;
+	border-color:#903;
+	border-left-color:#903;	
+	border-left:groove;
+	font-size:24px;
+	font-style:normal;
+	font-weight:700;
+	color:#FC9;
+	
+}
+div#sidebar1
+{    
+	margin-top:0px;
+	width:20%;
+
+	background-image:url(webimg2/8.jpg);
+	background-size:200px 740px;
+	height:740px;
+	float:left;
+   
+	
+}
+div#maincontent
+{
+
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#003;
+	font-size:18px;
+	font-weight:800;
+	width:460px;
+		 background-image:url(webimg/2_.jpg);
+	 background-repeat:no-repeat;
+	 background-size:490px 630px;
+	height:600px;
+   	 position:relative;
+	 float:left;
+	 border:outset #260000 55px;
+	 padding:15px;
+	
+}
+div#sidebar2
+
+{
+	margin-top:0px;
+	width:200px;
+	background-image:url(webimg2/8.jpg);
+    background-size:200px 740px;
+	height:740px;
+	float:left;
+	position:relative;
+   
+}
+div#container
+{    
+	width:1000px;
+	margin:0px auto;
+	
+	
+}
+div#tabs 
+{
+	
+
+	margin-top:60px;
+
+}
+	
+div#tabs ul
+{ 
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom:5px;
+	padding-top:5px;
+	list-style-type:none;
+	display:block;
+}
+div#tabs ul li
+{   
+	background-color:#790000;
+    border-bottom:#999;
+	border:#999;
+	border-radius:5px;
+	text-align:center;
+	height:30px;
+	padding:5px;
+	margin-bottom:5px;
+	
+	
+}
+div#tabs ul li a
+{
+font-family:"Comic Sans MS", cursive;
+font-size:20px;
+color:#FC9;
+text-decoration:none;
+}
+div#tabs ul li:hover
+{
+	background-color:#C30;
+}

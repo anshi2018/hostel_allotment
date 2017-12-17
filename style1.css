@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image:url(butterfly.jpg);
+
+	background-repeat:repeat;
+	background-position:left;
+}
+p,h1,h2,.red,div.underline
+{
+	font-family:Courier New, Courier, monospace;
+}
+div#header
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	text-align:center;
+	color: #06F;
+	border: 1px solid #AAA;
+	border-bottom:2px solid #000;
+}
+
+#content
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+        color:yellow
+}
+
+.red
+{
+	color: red;
+}
+
+.underlined
+{
+	text-decoration:underline;
+}
+

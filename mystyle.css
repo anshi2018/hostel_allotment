@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+#background
+            {
+	          background-image:url(New%20Folder%20(9)/hostel%20allottment/webimg/999999.jpg);
+			  
+			}
+#transbox
+          {
+			  height:500px;
+			  width:600px;
+			  margin-left:30px;
+			  border:groove;
+			  opacity:1.0;
+		      background-image:url(New%20Folder%20(9)/hostel%20allottment/webimg/33333.jpg);
+			  
+		  }
+a:link{
+	   color:#F03;
+      }
+a:visited {
+	      color:#303;
+          }
+a:hover{
+	     color:#69F;
+        }
+a:active{
+	      color:#0F0;
+         }
+		 
+	

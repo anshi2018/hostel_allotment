@@ -1,0 +1,25 @@
+$a=1;
+$b=2;
+echo "a+b=$a+$b";  //will print a+b=1+2
+<html>
+
+<?php
+$name=validate($_POST['fname']);
+$email=validate($_POST['emailid']);
+$password=validate($_POST['pass']);
+function validate($ val)
+{
+ $ val=htmlentities(trim($ val));
+ }
+ $dbhost="localhost";    //my sql server is working in same machine as php
+ $dbunme="root";
+ $dbpassword="999";
+ $dbname="wdc";
+ $con=new mysql($dbhost,$dbname,$dbpassword,$dbname);
+ if($con->connect_errno)
+ {
+  die("not able to connet to db");
+  }
+  else
+   echo "db connected";
+   ?>

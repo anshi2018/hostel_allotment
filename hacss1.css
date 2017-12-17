@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+div.reg1
+{
+	text-decoration:underline;
+	text-decoration:blink;
+	text-transform:capitalize;
+	text-shadow:#603;
+	width:100%;
+	background:url(../../Users/seema/Desktop/gyghv.jpg);
+	background-repeat: repeat;
+	color: #930;
+	text-align: center;
+	font-size: 40px;
+	font-style: bold;
+	font-weight: 500;
+	font-family:"Times New Roman", Times, serif;
+	/*border-image: url(../../../Users/seema/Desktop/webimg/999999.jpg);
+	border-width: thick;*/
+
+}
+
+form#form1
+{
+	background: url(MNNIT%20Allahabad.jpg);
+	background-size:150%;
+	background-repeat:no-repeat;
+	opacity: 0.9;
+	filter: alpha(opacity=100);
+	font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;	font-size: 18px;
+
+	border: thick;
+
+
+	color: #FFFFFF;
+	float:left;
+	position:relative;
+	width:60%;
+	padding:2%;
+	height:96%;
+
+}
+div.reg2
+{
+	text-align: justify;
+	text-decoration: blink;
+	font-style: italic;
+	font: bolder;
+	color: #006;
+	font-weight: 900;
+	
+}
+
+input.reg3 
+{
+    color: white;
+    background-color:#006;
+    display:inline-block ;
+    text-decoration: none;
+    font-weight: bold;
+	font-size:16px;
+	font-style:italic;
+	font:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif
+    box-shadow: 5px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	height:30px;
+	width:90px;
+    
+}
+
+input.reg3:hover {
+    background-color:#999;
+}
+
+div#reg5
+{
+	float:left;
+	width:18%;
+	height:820px;
+	background-color:#003;
+	
+
+}
+div#reg6
+{
+	position:relative;
+	float:left;
+	width:18%;
+	height:820px;
+	background-color:#003;
+	
+
+}
+div.container
+{
+	width:1200px;
+	margin:0px auto;
+
+}
+
+
+input.reg7
+{
+height:30px;
+}
+.input_wrapper{background:url(../../Users/seema/Desktop/iconimages/img4.jpg);}
+
+	

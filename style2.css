@@ -1,0 +1,172 @@
+
+@charset "utf-8";
+/* CSS Docum*/
+*
+{
+	margin:0px;
+	padding:0px;
+	
+}
+body
+{  
+	background-color:#EAEAEA;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:700px;
+	border-left-color:#999;
+	border-left-width:100px;
+	
+}
+	
+
+div#header
+{
+	background-color:#090345;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:40px;
+	color:#FFF ;
+	text-align:center;
+}
+
+div#content
+{
+	margin-top: 20px;
+	/*overflow:auto;*/
+	
+	
+}
+
+div#menu
+{
+	width: 100%;
+   
+	 
+}
+
+div#menu ul
+{
+	list-style-type: none;
+	width: 680px;
+	margin: 0px auto;
+	
+}
+
+div#menu ul li
+{
+	float:left;
+	
+	background-color:#CCC;
+	padding: 5px;
+	border-bottom:#333;
+     
+	height:20px;
+
+	border-radius: 3px;
+	margin-right: 10px;
+	width: 110px;
+	text-align:center;
+}
+
+div#menu ul li a
+{
+	display:block;
+	width: 100%;
+	height: 100%;
+	text-decoration:blink;
+	color: #003;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+}
+
+div#menu ul li:hover
+{
+	background-color:#C99;
+	
+}
+div#menu ul li:hover a
+{
+	color:#600;
+}
+	ul.option1
+{
+	display:none;
+}
+
+div#menu ul li:hover ul.option1 
+{
+	display:block;
+	float:none;
+	
+	position:absolute;
+	background-color:#C99;
+	width:17px;
+	border-bottom:none;
+
+}
+
+div#menu ul li	ul.option1 li 
+	{
+    display:block;
+	width:105px ;
+	float:none;
+	height: 34px;
+	border-bottom:none;
+
+	background-color:#C99; 
+	padding:10px;
+	}
+	div#menu ul li ul.option1 li a
+	{
+		display:block;
+	width: 100%;
+	height: 100%;
+	text-decoration:blink;
+	color: #303;
+	font-family:"Comic Sans MS", cursive;
+	font-size:12px;
+	font-weight:bold;
+	}
+
+div#menu ul li ul.option1 li:hover
+{
+	background-color:#099;
+}
+#box
+   {
+	   width:1000px;
+   }
+img#slide
+{  
+	
+	margin-left:100px;
+	margin-top:80px;
+	border:double;
+	float:left;
+	}
+#slidetext
+{    float:left;
+	  margin-left:100px;
+	  margin-top:200px;
+	  
+	 
+	 }
+#box2{
+	 margin-left:500px;
+	 position:relative;
+	 float:left;
+}
+#regist li
+ul#regist li
+{
+background-color:#C99;
+	border-radius:5px;
+	width:100px;
+	margin:5px;
+	padding:5px;
+	position:relative;
+	float:left;
+	text-decoration:none;
+	list-style-type:none;
+	
+}
